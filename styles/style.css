@@ -7,7 +7,7 @@
 }
 
 /* shear resourcess */
-.section-title{
+.section-title {
     color: #0D1321;
     text-align: center;
     font-family: Azeret Mono;
@@ -18,7 +18,9 @@
     align-self: stretch;
     margin-bottom: 24px;
 }
-.section-description{
+
+.section-description {
+    opacity: 0.7;
     width: 852px;
     height: 52px;
     align-self: stretch;
@@ -32,6 +34,7 @@
     /* 162.5% */
     margin-bottom: 48px;
 }
+
 .btn {
     padding: 17px 24px;
     border-radius: 8px;
@@ -136,16 +139,16 @@ nav ul li {
 
 /* devolopment section */
 .development {
-    width: 1140px;
-    height: 1393px;
+    width: 946px;
+    height: 1233px;
+    margin: 74px auto 90px;
     padding: 80px 97px;
-    margin: 74px auto 90px ;
     align-items: center;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
 
-
+.development-container {}
 
 .code-container {
     margin-top: 32px;
@@ -155,6 +158,10 @@ nav ul li {
     align-items: center;
     border-radius: 16px;
     background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.gradient-reverse {
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
 }
 
 .codes {
@@ -176,6 +183,7 @@ nav ul li {
 }
 
 .code-descroption {
+
     margin-top: 16px;
     margin-bottom: 32px;
     opacity: 0.7;
@@ -186,4 +194,104 @@ nav ul li {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* inspiration styling  */
+.inspiration {
+    width: 1440px;
+    height: 775px;
+    background: #FFF;
+}
+
+.ins-video {
+    width: 1140px;
+    height: 614px;
+
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+}
+
+.ins-video iframe {
+    width: 1076px;
+    height: 550px;
+    margin: 32px;
+    border-radius: 16px;
+}
+
+/* Target styling */
+.target {
+    width: 1140px;
+    height: 460px;
+    margin-top: 151px;
+    margin-bottom: 111px;
+}
+
+.target-container {
+
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.skill {
+    width: 284px;
+    height: 219px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.skill-title {
+    margin-top: 24px;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    /* 150% */
+}
+
+.skill-description {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.skill a {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.html-bg {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-bg {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-bg {
+    background: rgba(255, 223, 0, 0.05);
+}
+/* Support styling */
+.support{
+    
 }
