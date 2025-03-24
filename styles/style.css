@@ -291,7 +291,98 @@ nav ul li {
 .js-bg {
     background: rgba(255, 223, 0, 0.05);
 }
+
 /* Support styling */
-.support{
+.support {
+    margin-bottom: 80px;
+    width: 1044px;
+    height: 185px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+    text-align: center;
+
+}
+
+.support .section-title {
+    font-weight: 700;
+}
+
+.support .section-title,
+.section-description {
+    color: #FFF;
+}
+
+.support form {
+    padding: 0px 180px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.support-text {
+    display: block;
+    width: 508px;
+    height: 19px;
+    padding: 19px 20px 19px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    color: rgba(13, 19, 33, 0.40);
+    text-align: left;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.support-btn {
+    display: block;
+    width: 120px;
+    height: 57px;
+
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* footer styling */
+#footer {
+
+    width: 1440px;
+    height: 100px;
     
+}
+
+.footer-container {
+
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container img {
+    width: 36px;
+    height: 36px;
+    margin-left: 24px;
+}
+
+.footer-title {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
